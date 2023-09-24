@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatibile" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hobbies</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@400;700&display=swap");
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Cormorant Garamond", serif;
+      }
+
+      :root {
+        --green: #5dd56f;
+        --blue: #07a8f8;
+      }
+
+      .container {
+        width: 100%;
+        display: flex;
+        height: 550px;
+        justify-content: center;
+      }
+
+      .section {
+        width: 1264px;
+        margin: 0;
+      }
+
+      .headerpic {
+        position: relative;
+        margin-top: 40px;
+        width: 420px;
+        height: auto;
+        z-index: 3;
+        margin-left: 422px;
+      }
+
+      .cycling {
+        z-index: 2;
+        margin-top: 65px;
+        color: white;
+        background-color: #5dd56f;
+        width: 440px;
+        height: 445px;
+        padding: 10px;
+        margin-left: 382px;
+        position: absolute;
+      }
+
+      .trekking {
+        z-index: 2;
+        margin-top: 65px;
+        color: white;
+        background-color: #5dd56f;
+        width: 440px;
+        height: 445px;
+        padding: 10px;
+        margin-left: 440px;
+        position: absolute;
+      }
+
+      .cycling h2 {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        margin-left: -5px;
+        color: white;
+        margin-top: 50px;
+      }
+
+      .trekking h2 {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        margin-left: 395px;
+        color: white;
+        margin-top: 25px;
+      }
+
+      .treeking h2 {
+        margin-right: -5px;
+      }
+
+      .treeking:hover {
+        animation: 20s show;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section">
+        <div class="cycling">
+          <h2>BIKE</h2>
+        </div>
+
+        <div class="trekking">
+          <h2>MOUNTAINS</h2>
+        </div>
+
+        <!--
+        
+        <div class="bread">
+          <h2>BREAD BAKING</h2>
+        </div>
+
+        <div class="gallery">
+          <h2>HOUSE PLANTS</h2>
+        </div>
+
+        <div class="gallery">
+          <h2>BOOKS</h2>
+        </div>
+
+        <div class="gallery">
+          <h2>DEVELOPMENT</h2>
+        </div>
+         -->
+
+        <img
+          src="https://picsum.photos/640/480"
+          alt="Dowolny obraz z generatora"
+          class="headerpic"
+        />
+
+        <!--<img src="./...jpg" alt="" /> ścieżka do obrazka, na razie jakikolwiek, żeby było widać effekt-->
+      </div>
+    </div>
+  </body>
+</html>
