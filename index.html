@@ -84,9 +84,54 @@
         margin-right: -5px;
       }
 
-      .treeking:hover {
+      .cycling:hover {
         animation: 20s show;
         cursor: pointer;
+      }
+
+      @keyframes show {
+        0% {
+          margin-left: 382px;
+        }
+        10% {
+          margin-left: 0%;
+        }
+
+        50% {
+          margin-left: 0%;
+        }
+
+        99% {
+          margin-left: 382px;
+        }
+        100% {
+          margin-left: 382px;
+        }
+      }
+
+      .trekking:hover {
+        animation: 20s showing;
+        cursor: pointer;
+      }
+
+      @keyframes showing {
+        0% {
+          margin-left: 440px;
+        }
+        10% {
+          margin-left: 822px;
+        }
+
+        50% {
+          margin-left: 822px;
+        }
+
+        99% {
+          margin-left: 822px;
+        }
+        100% {
+          margin-left: 822px;
+        }
       }
     </style>
   </head>
